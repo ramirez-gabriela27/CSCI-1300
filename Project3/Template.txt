@@ -1,0 +1,78 @@
+Will need a display map function
+    will want to display text file and change it as the game goes on
+    (25 rows, 16 columns) make an array and make for loop to print
+
+    // Helper functions to include in driver
+        points calculator after turn
+        split!!!
+        display map
+        display menu
+
+**class of cities
+    letter
+    name
+    $
+    army_size
+    points worth
+
+**class of warriors
+    name
+    strength
+    loyalty
+    morale
+    free/not free
+    ship/no ship
+    has dragonglass/doesn't have dragonglass
+
+**class of heroes
+    name
+    $
+    influence
+    army_size
+    (include warrior objects) up to 4
+    location on map (row/column)
+    ship/no ship
+    *** can get dragonglass
+
+**class for player
+    name of player  // to go on results file
+    hero            // has choice to create different hero or chose existing
+    points          // to go on results file
+
+
+
+
+
+****** first step!!!!
+    initialize the game by reading the files
+        create heroes
+        place dragonglass in 5 random locations
+        if warrior is free - random location
+            if they have ship - MUST start on water
+        if warrior is not - location == location hero
+            cannot be in same location as one of the heroes or other warriors
+
+
+*** next
+    Welcome screen
+
+    Welcome to the GAME of THRONES!
+    state name
+    wanna chose hero (Y/N)
+        if no, make own
+
+*** actual game play
+    layout of all rules by class/section of GAME
+
+
+*** final battle
+    fight against the bad guys
+
+
+*** display results of game
+    include roster (which is updated when someone plays)
+        add player objects with their name, hero, and final points
+
+*** other things to include/do
+    be sure to test for every possibility of error
+    make it as organized and well formatted as possible
