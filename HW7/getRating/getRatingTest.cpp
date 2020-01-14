@@ -1,0 +1,5 @@
+#include "Book.h"
+#include "Book.cpp"
+#include "User.h"
+#include "User.cpp"
+#include "getRating.cpp"
